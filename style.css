@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    background-color: rgb(2, 1, 29);
+    color: aliceblue;
+    margin: 0;
+}
+.titles{
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.images{
+    width: 30%;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#div_menu{
+    width: 100%;
+    background-color: rgb(77, 1, 1);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    
+}
+.menu_item{
+   list-style: none;
+   padding: 0 10px; 
+   
+   
+}
+.menu_item a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+
+    
+   }
+   a:hover{
+    font-size: 22px;
+}
+
+.text{
+    margin: 30px;
+    text-align: justify;
+    font-size: 23px;
+    word-spacing: 10px;
+    
+}
